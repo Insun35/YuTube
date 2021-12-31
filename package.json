@@ -1,0 +1,19 @@
+{
+  "name": "yutube",
+  "version": "1.0.0",
+  "description": "WeTube clone coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insun35/YuTube.git"
+  },
+  "author": "Insun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Insun35/YuTube/issues"
+  },
+  "homepage": "https://github.com/Insun35/YuTube#readme"
+}
