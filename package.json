@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Insun35/YuTube/issues"
   },
-  "homepage": "https://github.com/Insun35/YuTube#readme"
+  "homepage": "https://github.com/Insun35/YuTube#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
