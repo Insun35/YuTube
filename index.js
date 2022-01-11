@@ -1,10 +1,15 @@
-const http = require("http");
-const handleRequest = (req, res) => {
-    res.writeHead(200);
-    return res.send("hello world");
-}
+import express from "express";
 
-const app = http.createServer(handleRequest);
+const app = express();
 
-app.listen(4000);
+const home = (req, res) => {
+    res.send("Welcome to homepage");
+};
 
+app.get("/", home);
+
+const handleListen = () => {
+    console.log("Server is listening!");
+};
+
+app.listen(4000, handleListen);
